@@ -1,4 +1,4 @@
-package com.kaushki;
+package com.kaushki.searching;
 
 public class LinearSearch {
     static void main() {
