@@ -2,10 +2,12 @@ package com.kaushki.searching;
 
 public class Peak1095 {
     static void main() {
-
+        int[] arr={1,3,3,4,5,3,1};
+        int ans=search(arr,3);
+        System.out.println(ans);
 
     }
-    int  search (int[] arr,int target){
+    static int  search (int[] arr,int target){
         int peak= peakIndexInMountainArray(arr);
         int firstTry=orderAgnosticBS(arr,target,0,peak);
         if(firstTry!=-1){

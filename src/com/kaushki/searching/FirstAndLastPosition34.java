@@ -1,11 +1,13 @@
 package com.kaushki.searching;
+import java.util.Arrays;
 
 public class FirstAndLastPosition34 {
     static void main() {
-
-
+        int[] arr={1,2,3,3,3,3,6,7,8};
+        //searchRange(arr,3);
+        System.out.println(Arrays.toString(  searchRange(arr,3)));
     }
-   public int[] searchRange(int[] nums,int target){
+   static int[] searchRange(int[] nums,int target){
         int[] ans={-1,-1};
         //check first occurance if target first
         int start=search(nums,target,true);
