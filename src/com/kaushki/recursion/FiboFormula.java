@@ -10,6 +10,7 @@ public class FiboFormula {
        static  int fiboFormula(int n){
         //return (int) ((Math.pow(((1+Math.sqrt(5))/2),n) - Math.pow(((1-Math.sqrt(5))/2),n))/Math.sqrt(5));
         //You can also ignore the less dominating term  from above formula
+           //Just for demo, use long instead of int
         return (int) ((Math.pow(((1+Math.sqrt(5))/2),n)/Math.sqrt(5)));
     }
     //This formula will print fibonacci of greater number as well
