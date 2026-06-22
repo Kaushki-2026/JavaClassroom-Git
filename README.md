@@ -44,12 +44,6 @@ The goal of this repository is to:
 * Search in Strings
 * Search in 2D Arrays
 
-### Problem Solving
-
-* Find Maximum Element
-* Richest Customer Wealth (LeetCode 1672)
-* Find Numbers with Even Number of Digits (LeetCode 1295)
-
 ### Practice Exercises
 
 * Chapter-wise homework problems
@@ -81,9 +75,9 @@ src/
 * ✅ Java Fundamentals
 * ✅ Arrays & ArrayList
 * ✅ Linear Search
+* ✅  Binary Search
+* ✅  Sorting Algorithms
 * 🔄 Strings
-* 🔄 Binary Search
-* ⏳ Sorting Algorithms
 * ⏳ Recursion
 * ⏳ Object-Oriented Programming
 * ⏳ Data Structures
