@@ -43,10 +43,11 @@ The goal of this repository is to:
 * Search in Range
 * Search in Strings
 * Search in 2D Arrays
+* Binary Search
 
 ### Practice Exercises
 
-* Chapter-wise homework problems
+* Chapter-wise homework problems from Kunal Kushwaha Bootcamp 
 * Java classroom exercises
 
 ---
