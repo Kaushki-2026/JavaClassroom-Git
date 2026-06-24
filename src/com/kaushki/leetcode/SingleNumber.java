@@ -1,6 +1,6 @@
-package com.kaushki.Maths;
+package com.kaushki.leetcode;
 
-public class FindUnique2 {
+public class SingleNumber{
     static void main() {
         int[] arr={2,3,4,5,6,4,5,2,3};
         System.out.println(ans(arr));

@@ -2,11 +2,12 @@ package com.kaushki.Maths;
 
 public class SetBit {
     static void main() {
-        int num=68;
-        int place=4;
-        System.out.println(SetBit(num,place));
-    }
-    static int SetBit(int num,int place){
-        return (1<<(place-1))|num;
+      int n=10;
+      int position=0;//Only to show at which position we want to setBit
+      int mask=1<<position;
+      int setBit=10|mask;
+        System.out.println(setBit);
+        //Time complexity=O(1)
+        // Space Complexity=O(1)
     }
 }
