@@ -1,4 +1,4 @@
-package com.kaushki.Maths;
+package com.kaushki.bit;
 
 public class Power {
     static void main() {

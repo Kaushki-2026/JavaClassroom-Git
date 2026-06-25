@@ -1,4 +1,4 @@
-package com.kaushki.Maths;
+package com.kaushki.bit;
 // To check the ith bit
 public class IthBit {
     public static void main(String[] args) {

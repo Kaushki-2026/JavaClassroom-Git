@@ -1,4 +1,4 @@
-package com.kaushki.Maths;
+package com.kaushki.bit;
 
 public class ToggleBit {
     static void main() {
