@@ -30,7 +30,7 @@ public class Factors {
         }
     }
     // both time and space with be 0(sqrt(n))
-    //This will give sorted array,same code as above just addition of arraylist
+    // This will give sorted array,same code as above just addition of arraylist
     static void factor3(int n){
         ArrayList<Integer> list = new ArrayList<>();
 
