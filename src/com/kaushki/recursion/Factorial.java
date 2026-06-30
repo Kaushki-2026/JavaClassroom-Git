@@ -2,18 +2,14 @@ package com.kaushki.recursion;
 
 public class Factorial {
     static void main() {
-        ;
-        System.out.println(fac(5));
+        System.out.println(factorial(5));
     }
-
-    static int fac(int n) {
-        if (n == 0 || n == 1) {
+    static int factorial(int n){
+        if(n == 1){
             return 1;
-
         }
-      return n*fac(n-1);
 
-
-
+        return n*factorial(n-1);
     }
+
 }
