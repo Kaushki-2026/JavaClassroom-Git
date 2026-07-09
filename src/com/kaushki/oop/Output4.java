@@ -1,4 +1,4 @@
-package com.kaushki.oOp;
+package com.kaushki.oop;
 public class Output4 {
     static class Student {
         String name;

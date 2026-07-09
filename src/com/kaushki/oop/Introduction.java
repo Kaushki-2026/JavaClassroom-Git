@@ -1,4 +1,4 @@
-package com.kaushki.oOp;
+package com.kaushki.oop;
 
 public class Introduction {
     static void main() {
