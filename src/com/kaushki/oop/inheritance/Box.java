@@ -1,4 +1,4 @@
-package com.kaushki.oop;
+package com.kaushki.oop.inheritance;
 
 //Inheritance is a feature of Object-Oriented Programming (OOP) where one
 // class acquires the properties and methods of another class.
@@ -19,6 +19,8 @@ public class Box {
 
     // cube
     Box(double side){
+
+        super();//Every class has Object as a superclass (Read the documentation)
         this.h = side;
         this.l = side;
         this.w = side;
