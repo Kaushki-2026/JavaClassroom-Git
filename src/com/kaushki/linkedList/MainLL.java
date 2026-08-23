@@ -1,6 +1,6 @@
 package com.kaushki.linkedList;
 
-public class Main {
+public class MainLL {
     static void main() {
         LL list = new LL();
         list.insertFirst(3);
