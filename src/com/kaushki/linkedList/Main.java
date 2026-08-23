@@ -9,7 +9,6 @@ public class Main {
         list.insertFirst(17);
 
         list.insert(23,3);
-        
         list.insertLast(99);
 
 
