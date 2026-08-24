@@ -1,4 +1,6 @@
 package com.kaushki.linkedList;
+//Doubly linked list
+
 
 public class DLL {
 
