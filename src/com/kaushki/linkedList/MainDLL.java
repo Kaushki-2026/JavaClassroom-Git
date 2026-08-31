@@ -13,6 +13,8 @@ public class MainDLL {
 
         list.insertLast(99);
 
+        list.insert(8,65);
+
         list.display();
 
 
