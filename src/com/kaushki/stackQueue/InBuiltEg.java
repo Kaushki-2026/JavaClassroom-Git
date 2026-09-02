@@ -1,8 +1,5 @@
 package com.kaushki.stackQueue;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class InBuiltEg {
 
@@ -37,7 +34,16 @@ public class InBuiltEg {
 
              */
 
-            Deque
+            Deque<Integer> deque = new ArrayDeque<>();
+            /*
+            It has no capacity restricted
+            Null pointer are not allowed in this
+            It is faster than linked list  and stack
+             */
+
+            deque.add(89);
+            deque.addLast(78);
+            deque.removeLast();
         }
 
 
