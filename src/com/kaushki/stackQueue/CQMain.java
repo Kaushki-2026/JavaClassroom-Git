@@ -13,6 +13,7 @@ public class CQMain {
         queue.display();
 
         System.out.println(queue.remove());
+        queue.insert(133);
         queue.display();
     }
 }
