@@ -25,6 +25,6 @@ public class DynamicStack extends CustomStack{
         //at this point we know that array is not full
         //insert item
         return super.push(item);
-        
+
     }
 }
