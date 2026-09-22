@@ -4,8 +4,8 @@ class BST {
     public class Node{
         private int value;
         int height;
-        private Node left;
-        private Node right;
+        Node left;
+        Node right;
 
         public Node(int value){
             this.value = value;
@@ -38,7 +38,7 @@ class BST {
         System.out.println(details + node.getValue());
 
         display(node.left,"Left child of " + node.getValue() + " : ");
-        display(node.left,"Right child of " + node.getValue() + " : ");
+        display(node.right,"Right child of " + node.getValue() + " : ");
 
     }
 }
